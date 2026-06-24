@@ -1,0 +1,43 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Raw and generated data
+legacy_workspace/
+raw_data/
+external data/
+data/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Databases and backups
+databases/
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Caches and progress files
+.search_cache/
+*.cache
+*.log
+*state*.json
+*progress*.json
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
